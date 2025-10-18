@@ -4,7 +4,7 @@ resource "aws_instance" "Roboshop" {
   vpc_security_group_ids = local.sg_id
   #  vpc_security_group_ids = [ aws_security_group.allow_all.id ]
   tags = {
-    Name = "RHEL"
+    Name = "RHEL56"
   }
 }
 
